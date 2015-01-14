@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eu.stosdev.theresistance.view.InstantCardSummaryView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <ImageView
+        android:id="@+id/card_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/take_responsibility"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/card_image"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/player_semicolon"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/player_taker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/card_name"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="4dp"
+            android:textSize="24sp"
+            tools:text="First player name"/>
+
+        <TextView
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/player_taker"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:textSize="16sp"
+            tools:text="Action"/>
+
+        <TextView
+            android:id="@+id/player_receiver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/action"
+            android:layout_marginTop="4dp"
+            android:textSize="24sp"
+            tools:text="Second player name"/>
+    </RelativeLayout>
+</eu.stosdev.theresistance.view.InstantCardSummaryView>

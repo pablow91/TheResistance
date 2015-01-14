@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Resistance</string>
+    <string name="app_id" translatable="false">183633545665</string>
+    <string name="the" translatable="false">The</string>
+    <string name="resistance" translatable="false">Resistance</string>
+    <string name="start_game">Start game</string>
+    <string name="winner">WINNER</string>
+    <string name="person_photo">Person photo</string>
+    <string name="choose_order">Choose order</string>
+    <string name="team_picking">Team picking</string>
+    <string name="team_vote">Team vote</string>
+    <string name="fab">Fab</string>
+    <string name="AGAINST">AGAINST</string>
+    <string name="FOR">FOR</string>
+    <string name="mission_semicolon">MISSION:</string>
+    <string name="success">SUCCESS</string>
+    <string name="failure">FAILURE</string>
+    <string name="Invitations">Invitations</string>
+    <string name="establish_confidence_card">Establish Confidence</string>
+    <string name="in_the_spotlight">In the Spotlight</string>
+    <string name="keeping_close_eye">Keeping a close eye on you</string>
+    <string name="no_confidence">No Confidence</string>
+    <string name="open_up">Open up</string>
+    <string name="opinion_maker">Opinion maker</string>
+    <string name="overheard_conversation">Overheard conversation</string>
+    <string name="strong_leader">Strong Leader</string>
+    <string name="take_responsibility">Take responsibility</string>
+    <string name="cards">cards</string>
+    <string name="null_vote">Null vote</string>
+    <string name="approve_vote">Approve vote</string>
+    <string name="nullified">Nullified</string>
+    <string name="become_leader">Become leader</string>
+    <string name="ccontinue">Continue</string>
+    <string name="no_card_available">No card available</string>
+    <string name="cannot_take_own_card">Cannot take own card</string>
+    <string name="player_already_in_spotlight">Player already in spotlight</string>
+    <string name="lobby">Lobby</string>
+    <string name="plot_cards">Plot Cards</string>
+    <string name="tip_r1">As a resistance operative you need to get on the mission teams, letting event a single spy on the team is enough to make it fail. The leader gets to propose team members, but everyone gets a vote. If the leader\'s proposal doesn\'t get enough votes then the next player become the leader and gets to propose a new team.</string>
+    <string name="tip_s1">The resistance players are out to get you - think and remember if you act and vote like a resistance player you will be harder to spot. All the resistance operatives will want to go on the mission, and so should you.</string>
+    <string name="tip_r2">A good resistance player not only determines who the spies are, but also builds trust in themselves. The best way to build trust is to explain to others what you are attempting to do and why. When interrogated the spies can stumble in their web of deceit and expose themselves.</string>
+    <string name="tip_s2">From game to game spies can get stuck in predictable patterns of behaviour, such as never failing the first mission. If the resistance operatives can predict your behaviour, they are more likely to uncover your identity.</string>
+    <string name="tip_r3">If you don\'t trust everyone on the team strongly consider rejecting the proposed Mission Team. Good resistance player will usually use three or more votes per round, carefully watching who is voting yes and asking them why. Remember the spies know each other and sometimes you can catch them approving a vote just because a spy was on the proposed team.</string>
+    <string name="tip_s3">Even if you are caught as a spy, you still have a valuable role to play in keeping the other spies safe. Use your status as a known spy to create confusion and discontent among the resistance operatives while protecting the remaining undercover spies.</string>
+    <string name="tip_r4">Information in The Resistance comes at multiple levels. First are players\' voting patterns, second are Mission result, and third are cues that you can discern from player interactions. Resistance Operatives must use all the information at hand to root out the Spy infestation.</string>
+    <string name="spy_strategy_tip">Spy Strategy Tip</string>
+    <string name="resistance_strategy_tip">Resistance Strategy Tip</string>
+    <string name="mission_result">Mission result</string>
+    <string name="mission_vote">Mission vote</string>
+    <string name="approve">Approve</string>
+    <string name="reject">Reject</string>
+    <string name="sucess">Sucess</string>
+    <string name="fail">Fail</string>
+    <string name="leader">Leader</string>
+    <string name="rules">Rules</string>
+    <string name="card_picking">Card picking</string>
+    <string name="card_distribution">Card distribution</string>
+    <string name="player_semicolon">Player:</string>
+    <string name="see_identity">see identity of player:</string>
+    <string name="reveal_identity_to">Reveal identity to</string>
+    <string name="summary">Summary</string>
+    <string name="taken_card">taken card %1$s from:</string>
+    <string name="new_leader">New leader:</string>
+    <string name="remaining_approvals">Remaining approvals:</string>
+    <string name="nullified_by">Nullified by:</string>
+    <string name="show_vote_result_of">Show vote result of:</string>
+    <string name="none">None</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eu.stosdev.theresistance.view.MainView
+    android:id="@+id/main_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_awesome_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="5dp"
+        android:minHeight="?attr/actionBarSize"
+        android:paddingTop="25dp"
+        tools:layout_height="200dp"
+        tools:subtitle="The"
+        tools:title="The Resistance">
+
+        <RelativeLayout
+            android:id="@+id/info_container"
+            android:layout_width="178dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <eu.stosdev.theresistance.view.FractionTypeView
+                android:id="@+id/fraction_type_view"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:elevation="10dp"/>
+
+            <eu.stosdev.theresistance.view.GameProgressView
+                android:id="@+id/game_progress_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="4dp"
+                android:elevation="10dp"/>
+
+            <eu.stosdev.theresistance.view.TurnProgressView
+                android:id="@+id/turn_progress_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/game_progress_view"
+                android:layout_gravity="end"
+                android:layout_marginTop="4dp"
+                android:elevation="10dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/my_awesome_toolbar"/>
+
+    <ImageButton
+        android:id="@+id/fab_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/ripple"
+        android:contentDescription="@string/fab"
+        android:elevation="1dp"
+        android:src="@drawable/next_arrow"
+        android:stateListAnimator="@anim/fab_anim"
+        android:tint="@android:color/white"
+        android:translationY="72dp"/>
+
+</eu.stosdev.theresistance.view.MainView>

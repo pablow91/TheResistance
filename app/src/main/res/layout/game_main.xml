@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eu.stosdev.theresistance.view.GameMainView xmlns:android="http://schemas.android.com/apk/res/android"
+                                           android:layout_width="match_parent"
+                                           android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:scrollbars="vertical"
+        android:translationY="200dp"/>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"/>
+
+    <ImageButton
+        android:id="@+id/card_visibility_switcher"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_above="@+id/card_container"
+        android:layout_centerHorizontal="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:elevation="10dp"
+        android:src="@drawable/card_switcher"
+        android:translationY="264dp"/>
+
+</eu.stosdev.theresistance.view.GameMainView>

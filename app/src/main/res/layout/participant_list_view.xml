@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eu.stosdev.theresistance.view.ParticipantListView xmlns:android="http://schemas.android.com/apk/res/android"
+                                                  android:layout_width="match_parent"
+                                                  android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/plot_cards_container"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground">
+
+        <CheckBox
+            android:id="@+id/plot_cards_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/plot_cards_checkbox"
+            android:layout_toRightOf="@+id/plot_cards_checkbox"
+            android:text="@string/plot_cards"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <com.mobeta.android.dslv.DragSortListView
+        android:id="@+id/drag_sort_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/plot_cards_container"/>
+</eu.stosdev.theresistance.view.ParticipantListView>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eu.stosdev.theresistance.view.StartView xmlns:android="http://schemas.android.com/apk/res/android"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/main_the_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
+            android:text="@string/the"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:id="@+id/main_resistance_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_the_label"
+            android:text="@string/resistance"
+            android:textSize="50sp"/>
+
+        <LinearLayout
+            android:id="@+id/button_container"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_resistance_label"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/start_game_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/start_game"/>
+
+            <Button
+                android:id="@+id/invitations_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Invitations"/>
+
+            <Button
+                android:id="@+id/rules_button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rules"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+</eu.stosdev.theresistance.view.StartView>
